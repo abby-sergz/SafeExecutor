@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Debug|Win32"
+	InheritedPropertySheets="$(SolutionDir)/vsprops/SafeExecutor_common.vsprops;.\gtest.common.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories=""
+	/>
+</VisualStudioPropertySheet>

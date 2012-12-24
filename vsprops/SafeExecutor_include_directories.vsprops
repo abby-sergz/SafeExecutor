@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SafeExecutor_include_directories"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(SolutionDir)/SafeExecutor/include&quot;;&quot;$(SolutionDir)/include_private&quot;"
+	/>
+</VisualStudioPropertySheet>

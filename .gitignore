@@ -1,0 +1,4 @@
+build
+*.suo
+*.ncb
+*vcproj.*.user

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="gtest.common"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(gtest_directory)/fused-src&quot;"
+	/>
+	<UserMacro
+		Name="gtest_directory"
+		Value="D:\Documents\Projects\vendors\gtest\gtest-1.6.0\gtest-1.6.0"
+	/>
+</VisualStudioPropertySheet>
