@@ -113,9 +113,19 @@ namespace
   }
 }
 
+#include <windows.h>
+
+LONG CALLBACK veh(PEXCEPTION_POINTERS p)
+{
+  return EXCEPTION_CONTINUE_SEARCH;
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
+  PVOID h = AddVectoredExceptionHandler(1, veh);
   testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
+  int res = RUN_ALL_TESTS();
+  RemoveVectoredExceptionHandler(h);
+  return res;
 }
 
